@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "convnd"
+version = "0.1.0"
+description = "generalized convolutions (n-dimensions)"
+authors = ["pvjosue (pv.josue@gmail.com) on github (deployed to pypi by Firas (fbd2014@nyu.edu) for research use)"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+# Define your development dependencies here
+dependencies=[
+    "torch"
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
